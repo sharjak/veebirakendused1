@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="res/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <title>My Dashboard</title>
 </head>
 <body>
@@ -24,6 +25,22 @@
         <strong>2.65</strong>
     </div>
 </section>
+<h4>Add course</h4>
+<form action="#">
+    <div class="form-group">
+        <label for="courseTitle">Course title:</label>
+        <input type="text" id="courseTitle" placeholder="Course title"><br>
+    </div>
+    <div class="form-group">
+        <label for="semester">Semester:</label>
+        <input type="number" id="semester" placeholder="Semester"><br>
+    </div>
+    <div class="form-group">
+        <label for="grade">Grade:</label>
+        <input type="number" id="grade" placeholder="Grade"><br><br>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
 <section>
     <h1>Courses</h1>
     <table>
@@ -56,16 +73,16 @@
         </tr>
         <tr>
             <td>4</td>
-            <td><a href="https://www.ut.ee/en/estonian-language-courses-basis-english" target="_blank">Estonian language Level A2</a></td>
+            <td><a href="https://www.ut.ee/en/estonian-language-courses-basis-english" target="_blank">Estonian language
+                Level A2</a></td>
             <td>2</td>
             <td>65</td>
         </tr>
         </tbody>
-        <  <td>
-            <td></td>
-            <td></td>
-            <td><strong>Average grade:</strong></td>
-            <td><strong>82.75</strong></td>
+        <td></td>
+        <td></td>
+        <td><strong>Average grade:</strong></td>
+        <td><strong>82.75</strong></td>
         </tfoot>
     </table>
 </section>
